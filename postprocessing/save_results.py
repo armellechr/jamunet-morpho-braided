@@ -63,6 +63,7 @@ You must set both `alpha_er` and `alpha_dep`.')
         else:
             file_name = file_name + f'_{alpha_er}aer_{alpha_dep}adep'
     
+    file_name = file_name + '_gange'
     save_path = os.path.join(dir_output, file_name + '.csv')
     losses_metrics = {'Training loss': train_losses, 'Validation loss': val_losses, 'Accuracy': metrics[0], 
                       'Precision': metrics[1], 'Recall': metrics[2], 'F1-score': metrics[3], 'CSI-score': metrics[4]}
