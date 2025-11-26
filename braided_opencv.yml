@@ -1,0 +1,36 @@
+# This environment is intended to be used for running JamUNet and additional notebooks
+# Manually added opencv
+
+
+name: braided
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - ca-certificates
+  - certifi
+  - dash=2.13.0
+  - dask
+  - gdal
+  - importlib-metadata=7.0.1
+  - ipympl=0.9.3
+  - jupyter=1.0.0
+  - jupyterlab=3.4.4
+  - matplotlib=3.5.2
+  - numpy=1.24.2
+  - openpyxl
+  - openssl
+  - opencv
+  - pandas=1.5.3
+  - python=3.9.17
+  - pytorch::pytorch=2.0.1
+  - pytorch::cpuonly
+  - pytorch::torchvision=0.15.2
+  - scikit-learn=1.2.2
+  - scipy=1.9.3
+  - seaborn=0.12.2
+  - tabulate
+  - torchinfo=1.8.0
+  - torchvision
+  - tqdm=4.66.1
