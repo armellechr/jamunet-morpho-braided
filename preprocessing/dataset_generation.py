@@ -14,7 +14,7 @@ from preprocessing.satellite_analysis_pre import count_pixels
 from preprocessing.satellite_analysis_pre import load_avg
 
 # ----
-AVG_PATH = r'C:/Users/armel/OneDrive/Documents/00EPFL/MA1/CS-433 Machine Learning/PROJET 2/jamunet-morpho-braided/data/satellite_gange/averages'
+AVG_PATH = r'data/satellite_gange/averages'
 # ----
 
 def load_image_array(path, scaled_classes=True):
